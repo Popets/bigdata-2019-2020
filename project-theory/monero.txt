@@ -27,3 +27,7 @@ https://anycoindirect.eu/en/trade-monero-for-bitcoin
 https://ice3x.com/
 
 https://ice3x.com/
+
+*непроследима - всъщност може да се проследи само е obfuscated
+
+**ефективно - не съвсем
