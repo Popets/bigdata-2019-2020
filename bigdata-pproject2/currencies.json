@@ -1,0 +1,14 @@
+[
+  {
+    "type": "BTC",
+    "name": "Bitcoin"
+  },
+  {
+    "type": "DOGE",
+    "name": "Doge Coin"
+  },
+  {
+    "type": "ETH",
+    "name": "Ethereum"
+  }
+]

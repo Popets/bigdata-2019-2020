@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css" />
+
+      <!-- Bootstrap Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script>let $ = require('jquery');</script>
+      <script>require('popper.js');</script>
+      <script>require('bootstrap');</script>
+  </head>
+  <body>
+    <form id="login">
+        <div id="user-allert" style="display: none;">No Such User!</div>
+        <input type="text" placeholder="Username"  class="form-control" id="username" style="width: 250px;
+        margin-top: 10px" required/>
+        <button type="submit" class="btn btn-primary">Login</button>
+    </form>
+
+    <!-- You can also require other files to run in this process -->
+    <script src="./renderer.js"></script>
+    <div id="main-container" class="row" style="display: none; margin: 20px">
+        <div id="sidebar" class="col-4"></div>
+        <div id="content" class="col-8" ></div>
+    </div>
+  </body>
+</html>
