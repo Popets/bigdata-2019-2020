@@ -98,7 +98,7 @@ var transaction = function (form, user, type) {
 
     var fail = form.find('#fail');
     var success = form.find('#success');
-    var ammount = form.find('#ammount').val();
+    var ammount = parseInt(form.find('#ammount').val());
 
     console.log(ammount);
     console.log(wallet[myIndex].ammount);
